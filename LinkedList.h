@@ -10,6 +10,7 @@ public:
 	void addFirst(T data);
 	void deleteFirst();
 	void deleteLast();
+	void addLast(T data);
 
 
 private:
@@ -29,7 +30,7 @@ bool LinkedList<T>::isEmpty() {
 }
 
 template <class T>
-int LinkedList<T>::getSize() {
+int LinkedList<T>::getSize(){
 	return size;
 }
 
